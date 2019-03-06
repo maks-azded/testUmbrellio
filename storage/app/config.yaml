@@ -1,0 +1,5 @@
+size: 100000
+type:
+- 'text/plain'
+- 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+timeout: 60
