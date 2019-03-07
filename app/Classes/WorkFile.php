@@ -32,9 +32,6 @@ class WorkFile
             case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
                 return $this->read_docx($path);
                 break;
-            case 'application/msword' :
-                return $this->read_doc_file($path);
-                break;
             case 'text/plain' :
                 return $this->read_txt($path);
                 break;
